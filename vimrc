@@ -13,6 +13,7 @@ set smartindent
 set autoindent "参考上一行的缩进方式进行自动缩进"
 set softtabstop=4 "4 character as a tab"
 set shiftwidth=4
+set backspace=2
 set smarttab
 set background=dark
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -41,7 +42,6 @@ let g:winManagerWindowLayout='FileExplorer|TagList'
 " set the runtime path to include Vundle and initialize
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'Valloric/YouCompleteMe'
 call vundle#end()
 
 
