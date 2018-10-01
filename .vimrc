@@ -29,6 +29,8 @@ set statusline+=%8*\ %=\ row:%l/%L\ (%03p%%)\             "Rownumber/total (%)
 set statusline+=%9*\ col:%03c\                            "Colnr
 set statusline+=%0*\ \ %m%r%w\ %P\ \                      "Modified? Readonly? Top/bot.
 
+set tags=./tags,tags;$HOME
+
 syntax enable
 colorscheme solarized
 
